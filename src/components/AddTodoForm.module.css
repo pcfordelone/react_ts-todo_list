@@ -1,0 +1,39 @@
+.addTodoForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: -1.8rem;
+}
+
+.addTodoForm input {
+    background: var(--gray-500);
+    height: 3.375rem;
+    width: 40rem;
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+    padding: 1rem;
+    color: var(--white);
+}
+
+.addTodoForm button {
+    
+    padding: 1rem;
+    background: var(--blue-500);
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    cursor: pointer;
+
+    transition: background-color 0.3s;
+}
+
+.addTodoForm button:hover {
+    background: var(--blue-400);
+}

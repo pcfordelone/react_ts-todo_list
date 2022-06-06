@@ -1,0 +1,52 @@
+.header {
+    max-width: 46rem;
+    margin: 4rem auto 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--gray-400);
+}
+
+.header p {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.header p span {    
+    background: var(--gray-400);
+    border-radius: 16px;
+    font-size: 0.75rem;
+    color: var(--gray-100);
+    padding: 0.125rem 0.5rem;
+}
+
+.header .createdTodos {
+    color: var(--blue-400);
+}
+
+.header .endedTodos {
+    color: var(--purple-400);
+}
+
+.content {
+    max-width: 46rem;
+    margin: 0 auto;
+}
+
+.content .noTodos {    
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;    
+}
+
+.content .noTodos p {
+    font-size: 1rem;
+}
